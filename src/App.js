@@ -1,24 +1,12 @@
-import logo from './logo.svg';
+import Register from './components/register';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div style={{padding:70}}>
+    <h3 className='heading'>Register/signup</h3>
+    <Register email={"sharath@123"} password={"13"} />
+   </div>
   );
 }
 
